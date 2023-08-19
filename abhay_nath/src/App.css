@@ -1,38 +1,62 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.navbar {
+  width: 85%;
+}
+.navbar nav ul{
+  display: flex;
+  justify-content: right;
+}
+.navbar nav ul .link{
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.navbar nav ul .active{
+  color: aqua;
+}
+.home {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15%;
+}
+.about {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 15%;
+}
+.sidebar {
+  display: grid;
+  width: 15%;
+  background-color: #323946;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  border-radius: 15px;
+}
+.sidebar button {
+  color: #1f242d;
+  margin-top: 1rem;
+}
+.sidebar h1 span {
+  color: aqua;
+}
+.todoform input {
+  border-radius: 8px;
+  height: 3vh;
+  padding-left: 10px;
+}
+.todoform button {
+  background: goldenrod;
+  margin-left: 5px;
+}
+.todolist {
+  width: 40%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-left: 25%;
 }
