@@ -2,4 +2,5 @@
 
 `npx create-react-app my-react-app`<br>
 `cd my-react-app`<br>
-`npm start`
+`npm start`<br>
+`npm install @mui/material @mui/icons-material`
