@@ -4,4 +4,5 @@
 `cd my-react-app`<br>
 `npm start`<br>
 `npm install @mui/material @mui/icons-material`<br>
-`npm install yup`
+`npm install yup`<br>
+`npm install @emotion/react @emotion/styled`
